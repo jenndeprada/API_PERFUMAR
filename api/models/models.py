@@ -1,10 +1,9 @@
-from typing import List, Optional
-from pydantic import BaseModel, Field, validator
-from uuid import UUID
-from datetime import date
 
+from pydantic import BaseModel
+from uuid import UUID
 
 
 class PerfumeModel(BaseModel):
+    id:UUID
     name:str
     brand:str
