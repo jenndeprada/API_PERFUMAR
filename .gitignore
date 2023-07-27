@@ -1,1 +1,6 @@
+.api.routes.__pycache__/
+.api.models.__pycache__/
+.api.entities.__pycache__/
+.api.__pycache__/
+.__pycache__
 
